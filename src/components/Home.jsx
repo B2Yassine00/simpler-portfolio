@@ -2,8 +2,6 @@ import { SpecSectionWrapper } from "../hoc";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { fadeIn } from "../utils/motion";
-import {linkedin} from "/src/assets/linkedin.png";
-import {github} from "/src/assets/github.png";
 import { profile } from "../assets";
 
 const Home = () => {
