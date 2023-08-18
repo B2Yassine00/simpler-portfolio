@@ -36,7 +36,7 @@ const Navbar = () => {
                         window.scrollTo(0, 0);
                     }}>
                     {/* <img src="/src/assets/logo.png" className='w-28 object-contain' /> */}
-                    <p className="ml-8 lg:ml-0 text-[32px] font-normal">Banouq Med Yassine</p>
+                    <p className="ml-8 lg:ml-0 text-[24px] xs:text-[32px] font-normal">Banouq Med Yassine</p>
                 </Link>
                 <ul className='list-none hidden lg:flex flex-row gap-10'>
                     {navLinks.map((nav) => (

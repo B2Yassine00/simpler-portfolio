@@ -7,7 +7,7 @@ import { github, linkedin, profile } from "../assets";
 const Home = () => {
     return (
         <section className="justify-center relative w-full h-screen mx-auto">
-            <motion.div variants={fadeIn()}>
+            <motion.div variants={fadeIn("", "", 0.1, 1)}>
                 <div className={`absolute inset-0 top-[120px] lg:flex justify-center gap-20 max-w-7xl mx-auto ${styles.paddingX} items-center`}>
                     <div className="flex justify-center">    
                         <img src={profile} alt="profile picture" className="rounded-[50%] w-[275px] lg:w-[400px] lg:h-[400px]" />

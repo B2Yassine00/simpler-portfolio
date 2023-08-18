@@ -4,7 +4,7 @@ import emailjs from "@emailjs/browser";
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
-import { slideIn } from "../utils/motion";
+import { fadeIn } from "../utils/motion";
 
 const Contact = () => {
   const formRef = useRef();
@@ -65,14 +65,14 @@ const Contact = () => {
 
   return (
     <div
-      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 p-10`}
+      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 p-[1.1rem] xs:p-10`}
     >
       <motion.div
-        variants={slideIn("left", "tween", 0.2, 1)}
+        variants={fadeIn("", "", 0.1, 1)}
         className='flex-[0.75] bg-gray-100 p-8 rounded-2xl shadow-2xl'
       >
         <p className="sm:text-[18px] text-[14px] text-gray-500 uppercase tracking-wider">Get in touch</p>
-        <h3 className="text-black text-left font-extrabold md:text-[60px] sm:text-[50px] xs:text-[40px] text-[5rem]">Contact.</h3>
+        <h3 className="text-black text-left font-extrabold md:text-[60px] sm:text-[50px] xs:text-[40px] text-[4rem]">Contact.</h3>
 
         <form
           ref={formRef}
@@ -80,36 +80,36 @@ const Contact = () => {
           className='mt-12 flex flex-col gap-8'
         >
           <label className='flex flex-col'>
-            <span className='text-black font-medium mb-4'>Your Name</span>
+            <span className='text-black text-[12px] font-medium mb-4'>Your Name</span>
             <input
               type='text'
               name='name'
               value={form.name}
               onChange={handleChange}
               placeholder="What's your good name?"
-              className='bg-white py-4 px-6 placeholder:text-gray-400 border-none text-gray-400 rounded-lg outline-none font-medium shadow-2xl'
+              className='bg-white py-4 px-6 placeholder:text-gray-400 placeholder:text-[12px] border-none text-gray-400 rounded-lg outline-none font-medium shadow-2xl'
             />
           </label>
           <label className='flex flex-col'>
-            <span className='text-black font-medium mb-4'>Your email</span>
+            <span className='text-black text-[12px] font-medium mb-4'>Your email</span>
             <input
               type='email'
               name='email'
               value={form.email}
               onChange={handleChange}
               placeholder="What's your web address?"
-              className='bg-white py-4 px-6 placeholder:text-gray-400 text-gray-400 rounded-lg outline-none border-none font-medium shadow-2xl'
+              className='bg-white py-4 px-6 placeholder:text-[12px] placeholder:text-gray-400 text-gray-400 rounded-lg outline-none border-none font-medium shadow-2xl'
             />
           </label>
           <label className='flex flex-col'>
-            <span className='text-black font-medium mb-4'>Your Message</span>
+            <span className='text-black text-[12px] font-medium mb-4'>Your Message</span>
             <textarea
-              rows={7}
+              rows={3}
               name='message'
               value={form.message}
               onChange={handleChange}
               placeholder='What you want to say?'
-              className='bg-white py-4 px-6 placeholder:text-gray-400 text-gray-400 rounded-lg outline-none border-none font-medium shadow-2xl'
+              className='bg-white py-4 px-6 placeholder:text-[12px] placeholder:text-gray-400 text-gray-400 rounded-lg outline-none border-none font-medium shadow-2xl'
             />
           </label>
 
@@ -123,7 +123,7 @@ const Contact = () => {
       </motion.div>
 
       <motion.div
-        variants={slideIn("right", "tween", 0.2, 1)}
+        variants={fadeIn("", "", 0.1, 1)}
         className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
       >
         <EarthCanvas />
