@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { navLinks } from "../constants";
+import closeico from "/src/assets/close.svg";
+import openico from "/src/assets/menu.svg";
 
 const Navbar = () => {
     const [active, setActive] = useState("");
@@ -53,7 +55,7 @@ const Navbar = () => {
 
             <div className='lg:hidden flex flex-1 justify-end items-center'>
             <img
-                src={toggle ? "/src/assets/close.svg" : "/src/assets/menu.svg"}
+                src={toggle ? closeico : openico}
                 alt='menu'
                 className='w-[28px] h-[28px] object-contain fill-black mr-8'
                 onClick={() => setToggle(!toggle)}
