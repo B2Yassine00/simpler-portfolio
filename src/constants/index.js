@@ -17,6 +17,13 @@ import {
   threejs,
 } from "../assets";
 
+import sciatech from "/src/assets/scia-tech.png";
+import yaakhayer from "/src/assets/yaa-khayer.png";
+import cicd from "/src/assets/cicd.png";
+import ensiasar from "/src/assets/ENSIASAR.png";
+import reportsapp from "/src/assets/reportsApp.png";
+import confy from "/src/assets/home.png";
+
 export const navLinks = [
     {
       id: "about",
@@ -201,7 +208,7 @@ export const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: "/src/assets/scia-tech.png",
+    image: sciatech,
     source_code_link: "https://github.com/B2Yassine00/scia-tech-page",
   },
   {
@@ -226,7 +233,7 @@ export const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: "/src/assets/yaa-khayer.png",
+    image: yaakhayer,
     source_code_link: "https://github.com/",
   },
   {
@@ -251,7 +258,7 @@ export const projects = [
         color: "violet-text-gradient",
       },
     ],
-    image: "/src/assets/cicd.png",
+    image: cicd,
     source_code_link: "https://github.com/",
   },
   {
@@ -272,7 +279,7 @@ export const projects = [
         color: "orange-text-gradient",
       },
     ],
-    image: "/src/assets/ENSIASAR.png",
+    image: ensiasar,
     source_code_link: "https://github.com/",
   },
   {
@@ -293,7 +300,7 @@ export const projects = [
         color: "orange-text-gradient",
       },
     ],
-    image: "/src/assets/reportsApp.png",
+    image: reportsapp,
     source_code_link: "https://github.com/",
   },
   {
@@ -318,7 +325,7 @@ export const projects = [
         color: "orange-text-gradient",
       },
     ],
-    image: "/src/assets/home.png",
+    image: confy,
     source_code_link: "https://github.com/B2Yassine00/confy",
   },
 ];

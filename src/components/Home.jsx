@@ -2,6 +2,9 @@ import { SpecSectionWrapper } from "../hoc";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { fadeIn } from "../utils/motion";
+import {profile} from "/src/assets/profile_pick.jpg";
+import {linkedin} from "/src/assets/linkedin.png";
+import {github} from "/src/assets/github.png";
 
 const Home = () => {
     return (
@@ -9,7 +12,7 @@ const Home = () => {
             <motion.div variants={fadeIn()}>
                 <div className={`absolute inset-0 top-[120px] lg:flex justify-center gap-20 max-w-7xl mx-auto ${styles.paddingX} items-center`}>
                     <div className="flex justify-center">    
-                        <img src="/src/assets/profile_pick.jpg" alt="profile picture" className="rounded-[50%] w-[275px] lg:w-[400px] lg:h-[400px]" />
+                        <img src={profile} alt="profile picture" className="rounded-[50%] w-[275px] lg:w-[400px] lg:h-[400px]" />
                     </div>
                     <div className="text-center mt-8 lg:mt-0">
                         <p className="text-[#555555] font-semibold animate-bounce">Hello, I'm</p>
@@ -23,10 +26,10 @@ const Home = () => {
                         </div>
                         <div className="flex justify-center gap-4 mt-4">
                             <a href="https://linkedin.com/">
-                                <img src="/src/assets/linkedin.png" alt="linkedin" className="h-8" />
+                                <img src={linkedin} alt="linkedin" className="h-8" />
                             </a>
                             <a href="https://github.com/">
-                                <img src="/src/assets/github.png" alt="linkedin" className="h-8" />
+                                <img src={github} alt="linkedin" className="h-8" />
                             </a>
                         </div>
                     </div>

@@ -3,6 +3,8 @@ import { SpecSectionWrapper } from "../hoc";
 import { ComputersCanvas } from "./canvas";
 import { motion } from "framer-motion";
 import { fadeIn } from "../utils/motion";
+import {experience} from "/src/assets/experience.png";
+import {education} from "/src/assets/education.png";
 
 const About = () => {
     return (
@@ -23,7 +25,7 @@ const About = () => {
                             speed: 450,
                             }}>
                                 <div className="p-6 flex-1 flex-col flex justify-center bg-white rounded-[2rem] text-center text-   [#555555] border-[0.1rem] border-black cursor-pointer">
-                                <img src="/src/assets/experience.png" alt="experience" className="h-8 object-contain" />
+                                <img src={experience} alt="experience" className="h-8 object-contain" />
                                 <h3 className="text-[18.72px] font-bold text-black">Experience</h3>
                                 <p>4 months internship <br /> Software Engineer</p>
                             </div>
@@ -34,7 +36,7 @@ const About = () => {
                             speed: 450,
                             }}>   
                             <div className="p-6 flex-1 flex-col flex justify-center bg-white rounded-[2rem] text-center text-[#555555] border-[0.1rem] border-black cursor-pointer">
-                                <img src="/src/assets/education.png" alt="experience" className="h-8 object-contain" />
+                                <img src={education} alt="experience" className="h-8 object-contain" />
                                 <h3 className="text-[18.72px] font-bold text-black">Education</h3>
                                 <p>4 months internship <br /> Software Engineer</p>
                             </div>
@@ -45,7 +47,9 @@ const About = () => {
                         variants={fadeIn("", "", 0.1, 1)}
                         className='mt-8 text-secondary text-[17px] max-w-3xl leading-[30px] text-center'
                         >
-                        These projects demonstrate my skills with real-world examples. Each is briefly described with code repositories and live demos, showcasing problem-solving, tech versatility, and project management.
+                            I am passionate about finding innovative solutions to any real or virtual problem especially in Tech World. <br />
+                            I am a software engineering student at ENSIAS, It is one of the prestigious Computer science colleges in Morocco. I am interested in Software Development, Cloud and DevOps. <br />
+                            With all the tools acquired in my studies, I really hope I can help achieve great things!
                         </motion.p>
                     </div>
                 </div>
