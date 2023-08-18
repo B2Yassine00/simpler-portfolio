@@ -16,8 +16,10 @@ import linkedin from "/src/assets/linkedin.png";
 import github from "/src/assets/github.png";
 import experience from "/src/assets/experience.png";
 import education from "/src/assets/education.png";
+import cv from "/src/assets/cv_pdf/CV_Mohammed_Yassine_Banouq.pdf";
 
 export {
+  cv,
   experience,
   education,
   linkedin,
