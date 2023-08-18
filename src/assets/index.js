@@ -11,6 +11,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import profile from "./profile_pick.jpg";
 
 export {
   css,
@@ -26,4 +27,5 @@ export {
   tailwind,
   typescript,
   threejs,
+  profile
 }
