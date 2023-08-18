@@ -14,8 +14,12 @@ import threejs from "./tech/threejs.svg";
 import profile from "./profile_pick.jpg";
 import {linkedin} from "/src/assets/linkedin.png";
 import {github} from "/src/assets/github.png";
+import {experience} from "/src/assets/experience.png";
+import {education} from "/src/assets/education.png";
 
 export {
+  experience,
+  education,
   linkedin,
   github,
   css,

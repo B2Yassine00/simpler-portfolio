@@ -3,8 +3,7 @@ import { SpecSectionWrapper } from "../hoc";
 import { ComputersCanvas } from "./canvas";
 import { motion } from "framer-motion";
 import { fadeIn } from "../utils/motion";
-import {experience} from "/src/assets/experience.png";
-import {education} from "/src/assets/education.png";
+import { education, experience } from "../assets";
 
 const About = () => {
     return (
