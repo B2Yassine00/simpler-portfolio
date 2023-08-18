@@ -30,7 +30,7 @@ const GoUpButton = () => {
 
   return (
     <div
-      className={`hidden sm:block fixed bottom-12 right-10 ${
+      className={`fixed bottom-12 right-10 ${
         showButton ? "block" : "hidden"
       } cursor-pointer`}
       onClick={scrollToTop}
