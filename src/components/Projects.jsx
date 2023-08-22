@@ -1,8 +1,6 @@
 import React from "react";
 import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
-
-import { styles } from "../styles";
 import { SpecSectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -69,7 +67,7 @@ const ProjectCard = ({
 
 const Projects = () => {
   return (
-    <div className="pt-[10vh] flex flex-col items-center">
+    <div className="pt-[15vh] flex flex-col items-center">
       <motion.div variants={textVariant()} className="text-center">
                 <p className="text-[#555555] text-[16px]">Explore My</p>
                 <h1 className="text-5xl font-bold">Last Projects</h1>

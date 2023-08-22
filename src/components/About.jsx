@@ -7,7 +7,7 @@ import { education, experience } from "../assets";
 
 const About = () => {
     return (
-        <section className="h-[90vh] pt-[10vh] md:mx-40">
+        <section className="h-[90vh] pt-[15vh] md:mx-40">
             <motion.div variants={fadeIn("", "", 0.1, 1)} className="flex flex-col items-center justify-center">
                 <p className="text-[#555555] text-[16px] pt-7 md:pt-0 text-center">Get To Know Me</p>
                 <h1 className="text-5xl text-center font-bold">About Me</h1>
