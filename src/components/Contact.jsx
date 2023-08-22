@@ -65,7 +65,7 @@ const Contact = () => {
 
   return (
     <div
-      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 p-[1.1rem] xs:p-10`}
+      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 p-[1.1rem] xs:p-10 `}
     >
       <motion.div
         variants={fadeIn("", "", 0.1, 1)}
