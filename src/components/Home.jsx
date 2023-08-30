@@ -23,10 +23,10 @@ const Home = () => {
                             <a href="#contact" className="bg-black hover:ring-8 transition-all ease-in-out duration-300 ring-gray-300 text-white text-[13.3333px] p-4 w-32 border-2 border-black rounded-[2rem] font-semibold">Contact Info</a>
                         </div>
                         <div className="flex justify-center gap-4 mt-4">
-                            <a href="https://linkedin.com/">
+                            <a href="https://www.linkedin.com/in/yassine-banouq-0b64281b9/">
                                 <img src={linkedin} alt="linkedin" className="h-8" />
                             </a>
-                            <a href="https://github.com/">
+                            <a href="https://github.com/B2Yassine00">
                                 <img src={github} alt="linkedin" className="h-8" />
                             </a>
                         </div>

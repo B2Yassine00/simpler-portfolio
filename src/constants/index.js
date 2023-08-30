@@ -216,7 +216,7 @@ export const projects = [
       },
     ],
     image: yaakhayer,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/B2Yassine00/donnation-project",
   },
   {
     name: "DevOps Pipeline",
@@ -241,7 +241,7 @@ export const projects = [
       },
     ],
     image: cicd,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/B2Yassine00/YAA-Khayer",
   },
   {
     name: "ENSIASAR",
@@ -262,7 +262,7 @@ export const projects = [
       },
     ],
     image: ensiasar,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/B2Yassine00/ENSIASPATHFINDER",
   },
   {
     name: "Reports App",
@@ -283,7 +283,7 @@ export const projects = [
       },
     ],
     image: reportsapp,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/B2Yassine00/ReportsApp",
   },
   {
     name: "Confy",
