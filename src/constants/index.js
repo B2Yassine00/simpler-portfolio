@@ -44,63 +44,6 @@ export const navLinks = [
     
   ];
 
-export const home = {first_text: "Scia-Tech, Your Innovative Sciatica Solution.",
-    second_text:"Your Innovative Sciatica.",
-    third_text: "Unlocking Relief, Empowering lives.",
-  };
-
-export const about = {big_title: "About Us",
-    description: "Contrary to to to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, Aymane it over 2000 years old. Richard McClintock, a Latin Rabii at Hampden-Sydney College in in Virginia, looked up one of the more obscure Latin Latin Latin ."
-  };
-
-export const slides = [{url: "/src/assets/insole1.jpg"}, {url: '/src/assets/insole2.jpg'}, {url: "/src/assets/insole1.jpg"}];
-    
-
-export const services = [
-    {
-      title: "Cash Back",
-      icon: "/src/assets/cashBack.png",
-      description: "Hello my name is Lorem Ipsum",
-    },
-    {
-      title: "Cash Back",
-      icon: "/src/assets/cashBack.png",
-      description: "Hello my name is Lorem Ipsum",
-    },
-    {
-      title: "Membership",
-      icon: "/src/assets/membership.png",
-      description: "Hello my name is Lorem Ipsum",
-    },
-  ];
-
-export const features = [
-    {
-      name: "feature #1",
-      description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-      image: "/src/assets/feat.png",
-    },
-    {
-      name: "feature #2",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      image: "/src/assets/feat.png",
-    },
-    {
-      name: "feature #3",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      image: "/src/assets/feat.png",
-    },
-    {
-      name: "feature #4",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      image: "/src/assets/feat.png",
-    },
-  ];
-
 export const experiences = [
   {
     title: "Software & DevOps engineer intern",
@@ -109,7 +52,10 @@ export const experiences = [
     iconBg: "#E8E8E8",
     date: "July 2023 - Present",
     points: [
-      "Shop",
+      "Led a pioneering initiative targeting the prediction and prevention of sciatica through sensor-equipped insoles.",
+      "Directed the creation of an engaging landing page utilizing React, Tailwind CSS, and Framer Motion, hosted on AWS Cloud via AWS Amplify and Route 53.",
+      "Designed and implemented a scalable microservices architecture on AWS Cloud, optimizing performance and maintainability.",
+      "Expertly developed an airtight authentication service using Spring Security, fortifying user experience and system integrity.",
     ],
   },
   {
@@ -119,7 +65,10 @@ export const experiences = [
     iconBg: "#E8E8E8",
     date: "June 2022 - Aug 2022",
     points: [
-      "Donwload",
+      "Proficiently contributed to the development of an interactive management account tracing website, leveraging Angular and Spring Boot frameworks.",
+      "Played a key role in designing and constructing a user-friendly interface, ensuring easy accessibility and utilization for employees.",
+      "Demonstrated intermediate-level mastery in Angular and Spring Boot, enabling seamless integration of frontend and backend functionalities.",
+      "Collaborated effectively with the team, translating requirements into tangible features, and thus enhancing the organization's internal management processes.",
     ],
   },
   {
@@ -129,7 +78,10 @@ export const experiences = [
     iconBg: "#E8E8E8",
     date: "Sep 2021 - Sep 2024",
     points: [
-      "Donwload",
+      "Successfully completed comprehensive coursework in Cloud DevOps and Development at ENSIAS, gaining a solid foundation in cutting-edge methodologies.",
+      "Acquired proficiency in cloud technologies and DevOps practices through hands-on learning, equipping myself to streamline development processes and enhance operational efficiency.",
+      "Engaged with a diverse range of topics, including containerization, continuous integration and deployment (CI/CD), and infrastructure as code (IaC), preparing for real-world challenges in cloud-centric environments.",
+      "Collaborated within a dynamic educational environment, fostering teamwork, communication, and problem-solving skills, while honing the ability to architect and manage scalable cloud-based solutions.",
     ],
   },
 ];

@@ -29,7 +29,7 @@ const App =() => {
           <StarsCanvas />
         </div>
         <Footer />
-        <GoUpButton />
+        <GoUpButton className="hidden md:flex" />
       </div>
     </BrowserRouter>
   )
