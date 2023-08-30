@@ -2,6 +2,12 @@ import TGR from "/src/assets/company/TGR.png";
 import Orange from "/src/assets/company/Orange.png";
 import ENSIAS from "/src/assets/company/ENSIAS.png";
 import {
+  angular,
+  flutter,
+  java,
+  jenkins,
+  kubernetes,
+  spring,
   javascript,
   typescript,
   html,
@@ -87,6 +93,30 @@ export const experiences = [
 ];
 
 export const technologies = [
+  {
+    name:"Angular",
+    icon: angular,
+  },
+  {
+    name: "Flutter",
+    icon: flutter,
+  },
+  {
+    name: "Java",
+    icon: java,
+  },
+  {
+    name: "Jenkins",
+    icon: jenkins,
+  },
+  {
+    name: "Kubernetes",
+    icon: kubernetes,
+  },
+  {
+    name: "Spring Boot",
+    icon: spring,
+  },
   {
     name: "HTML 5",
     icon: html,

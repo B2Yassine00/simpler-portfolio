@@ -17,8 +17,20 @@ import github from "/src/assets/github.png";
 import experience from "/src/assets/experience.png";
 import education from "/src/assets/education.png";
 import cv from "/src/assets/cv_pdf/CV_Mohammed_Yassine_Banouq.pdf";
+import angular from "/src/assets/tech/angular.png";
+import flutter from "./tech/flutter.png";
+import java from "./tech/java.png";
+import jenkins from "./tech/Jenkinss.png";
+import kubernetes from "./tech/kubernetes.png";
+import spring from "./tech/spring.png";
 
 export {
+  angular,
+  flutter,
+  java,
+  jenkins,
+  kubernetes,
+  spring,
   cv,
   experience,
   education,

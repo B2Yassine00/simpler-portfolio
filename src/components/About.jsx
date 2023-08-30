@@ -26,7 +26,7 @@ const About = () => {
                                 <div className="p-6 flex-1 flex-col flex justify-center bg-white rounded-[2rem] text-center text-   [#555555] border-[0.1rem] border-black cursor-pointer">
                                 <img src={experience} alt="experience" className="h-8 object-contain" />
                                 <h3 className="text-[18.72px] font-bold text-black">Experience</h3>
-                                <p>4 months internship <br /> Software Engineer</p>
+                                <p>6 months internship <br /> Software Engineer</p>
                             </div>
                         </Tilt>
                         <Tilt options={{
@@ -34,10 +34,10 @@ const About = () => {
                             scale: 1,
                             speed: 450,
                             }}>   
-                            <div className="p-6 flex-1 flex-col flex justify-center bg-white rounded-[2rem] text-center text-[#555555] border-[0.1rem] border-black cursor-pointer">
+                            <div className="p-6 flex-1 min-w-[210px] flex-col flex justify-center bg-white rounded-[2rem] text-center text-[#555555] border-[0.1rem] border-black cursor-pointer">
                                 <img src={education} alt="experience" className="h-8 object-contain" />
                                 <h3 className="text-[18.72px] font-bold text-black">Education</h3>
-                                <p>4 months internship <br /> Software Engineer</p>
+                                <p>3 years cursus <br /> Software & DevOps</p>
                             </div>
                         </Tilt>
                     </div>
